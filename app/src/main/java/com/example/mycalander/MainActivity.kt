@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         dateTv = findViewById(R.id.tvDate)
         calenderView = findViewById(R.id.calenderView)
 
-        calendarView
+        calenderView
             .setOnDateChangeListener(
                 OnDateChangeListener { _, year, month, dayOfMonth ->
 
